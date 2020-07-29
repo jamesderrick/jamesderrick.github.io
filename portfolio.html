@@ -1,38 +1,289 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/menu.css">
-  <title>Tiny Jim - Portfolio</title>
-</head>
-<body>
-  <div class="menu-wrap">
-    <input type="checkbox" class="toggler">
-    <div class="hamburger"><div></div></div>
-    <div class="menu">
-      <div>
-        <div>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Tiny Jim</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/portfolio.css">
+        <meta name="author" content="James Derrick" />
+        <link rel="shortcut icon" href="favicon.ico"> 
+    </head>
+    <body>
+        <header>
+            <img class="logo" src="" alt="logo">
+            <nav>
+                <ul class="nav__links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                </ul>
+            </nav>
+            <a class="cta" href="mailto:james.derrick@icloud.com?subject=Website Contact"><button>Contact</button></a>
 
-  <header class="showcase">
-    <div class="container showcase-inner">
-      <h1>Portfolio</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas maiores sint impedit delectus quam molestiae explicabo cum facere ratione veritatis.</p>
-      <a href="#" class="btn">Read More</a>
-    </div>
-  </header>
-</body>
+        </header>
+
+        <p></p>
+        <h1>Portfolio</h1>
+
+        <p></p>
+        <p></p>
+        <div id="employers" class="section">
+          <span class="section-header">Previous Employers</span>
+          <div class="grid-container">
+            <button class="md-trigger" data-modal="modal-employer-1">
+              <div class="grid-item">
+                <img src="img/logos/servian.jpg"/>
+                Servian
+              </div>
+            </button>
+            <button class="md-trigger" data-modal="modal-employer-2">
+              <div class="grid-item">
+                <img src="img/logos/eproductive.png"/>
+                Eproductive
+              </div>
+            </button>
+          </div>
+        </div>
+
+        <div class="md-modal md-effect-1" id="modal-employer-1">
+          <div class="md-content">
+            <h3>Servian Pty. Ltd.</h3>
+            <div class="md-content-inner">
+              <div>
+                <p>Servian is a data consultancy company predominantly based in Australia. At the cutting edge of cloud computing they are also AWS and Google Cloud partners in the Asia Pacific region.</p>
+                <p><a href="https://www.servian.com" target="_blank">www.servian.com</a></p>
+                <div>
+                  <p>Consultant</p>
+                  <ul>
+                    <li><strong>Start:</strong> 01/01/1970</li>
+                    <li><strong>End:</strong> 01/01/1970</li>
+                    <li><strong>Responsibilities:</strong> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, excepturi ea. Laboriosam accusantium, quisquam accusamus ipsum enim quam impedit, quia in dicta, repellendus explicabo aliquid eos? Voluptatum tenetur autem eveniet!</li>
+                  </ul>
+                </div>
+                <div>
+                  <p>Associate Consultant</p>
+                  <ul>
+                    <li><strong>Start:</strong> 01/01/1970</li>
+                    <li><strong>End:</strong> 01/01/1970</li>
+                    <li><strong>Responsibilities:</strong> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, excepturi ea. Laboriosam accusantium, quisquam accusamus ipsum enim quam impedit, quia in dicta, repellendus explicabo aliquid eos? Voluptatum tenetur autem eveniet!</li>
+                  </ul>
+                </div>
+                <div>
+                  <p>Analyst</p>
+                  <ul>
+                    <li><strong>Start:</strong> 01/01/1970</li>
+                    <li><strong>End:</strong> 01/01/1970</li>
+                    <li><strong>Responsibilities:</strong> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, excepturi ea. Laboriosam accusantium, quisquam accusamus ipsum enim quam impedit, quia in dicta, repellendus explicabo aliquid eos? Voluptatum tenetur autem eveniet!</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="cta">
+                <button class="md-close">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="md-modal md-effect-1" id="modal-employer-2">
+          <div class="md-content">
+            <h3>Eproductive</h3>
+            <div class="md-content-inner">
+              <div>
+                <p>Eproductive provide multiple cloud based platforms for a number of charity retail organisations across the UK as well as in the hosptiality sector spanning hotels through Europe.</p>
+                <p><a href="https://www.eproductive.com" target="_blank">www.eproductive.com</a></p>
+                <div>
+                  <p>Consultant</p>
+                  <ul>
+                    <li><strong>Start:</strong> 01/01/1970</li>
+                    <li><strong>End:</strong> 01/01/1970</li>
+                    <li><strong>Responsibilities:</strong> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, excepturi ea. Laboriosam accusantium, quisquam accusamus ipsum enim quam impedit, quia in dicta, repellendus explicabo aliquid eos? Voluptatum tenetur autem eveniet!</li>
+                  </ul>
+                </div>
+                <div>
+                  <p>Associate Consultant</p>
+                  <ul>
+                    <li><strong>Start:</strong> 01/01/1970</li>
+                    <li><strong>End:</strong> 01/01/1970</li>
+                    <li><strong>Responsibilities:</strong> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, excepturi ea. Laboriosam accusantium, quisquam accusamus ipsum enim quam impedit, quia in dicta, repellendus explicabo aliquid eos? Voluptatum tenetur autem eveniet!</li>
+                  </ul>
+                </div>
+                <div>
+                  <p>Analyst</p>
+                  <ul>
+                    <li><strong>Start:</strong> 01/01/1970</li>
+                    <li><strong>End:</strong> 01/01/1970</li>
+                    <li><strong>Responsibilities:</strong> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, excepturi ea. Laboriosam accusantium, quisquam accusamus ipsum enim quam impedit, quia in dicta, repellendus explicabo aliquid eos? Voluptatum tenetur autem eveniet!</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="cta">
+                <button class="md-close">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <p></p>
+        <p></p>
+        <div id="projects"  class="section">
+          <span class="section-header">Work Experience</span>
+          <div class="grid-container">
+            <button class="md-trigger" data-modal="modal-project-1">
+              <div class="grid-item">
+                <img src="img/logos/employsure.png"/>
+                Employsure
+              </div>
+            </button>
+            <button class="md-trigger" data-modal="modal-project-2">
+              <div class="grid-item">
+                <img src="img/logos/gsc.png"/>
+                Greater Sydney Commission (GSC)
+              </div>
+            </button>
+            <button class="md-trigger" data-modal="modal-project-3">
+              <div class="grid-item">
+                <img src="img/logos/class2.jpg"/>
+                Class
+              </div>
+            </button>
+            <button class="md-trigger" data-modal="modal-project-4">
+              <div class="grid-item">
+                <img src="img/logos/servicenow.jpg"/>
+                Service Now (for Servian)
+              </div>
+            </button>
+            <div class="grid-item"></div>
+          </div>
+        </div>
+
+        <div class="md-modal md-effect-1" id="modal-project-1">
+          <div class="md-content">
+            <h3>Employsure</h3>
+            <div class="md-content-inner">
+              <div>
+                <p>Intro</p>
+                <div>
+                  <p>Wordpress Migration</p>
+                  <ul>
+                    <li><strong>Why:</strong> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam consequuntur inventore maxime ducimus molestias itaque ab soluta quam unde, quo in minus, veritatis fugit nemo sint id excepturi quia aliquid!</li>
+                    <li><strong>What:</strong> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut porro molestias incidunt neque id at, quasi laboriosam! Ipsum est, pariatur assumenda quasi in eligendi quas vero, consequatur quis iste sit!</li>
+                    <li><strong>Details:</strong> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, excepturi ea. Laboriosam accusantium, quisquam accusamus ipsum enim quam impedit, quia in dicta, repellendus explicabo aliquid eos? Voluptatum tenetur autem eveniet!</li>
+                  </ul>
+                </div>
+              </div>
+            <div class="cta">
+              <button class="md-close">Close</button>
+            </div>
+          </div>
+          </div>
+        </div>
+
+        <div class="md-modal md-effect-1" id="modal-project-2">
+          <div class="md-content">
+            <h3>Greater Sydney Commission</h3>
+            <div class="md-content-inner">
+              <div>
+                <p>Intro</p>
+                <div>
+                  <p>Custom Drupal Module</p>
+                  <ul>
+                    <li><strong>Why:</strong> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam consequuntur inventore maxime ducimus molestias itaque ab soluta quam unde, quo in minus, veritatis fugit nemo sint id excepturi quia aliquid!</li>
+                    <li><strong>What:</strong> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut porro molestias incidunt neque id at, quasi laboriosam! Ipsum est, pariatur assumenda quasi in eligendi quas vero, consequatur quis iste sit!</li>
+                    <li><strong>Details:</strong> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, excepturi ea. Laboriosam accusantium, quisquam accusamus ipsum enim quam impedit, quia in dicta, repellendus explicabo aliquid eos? Voluptatum tenetur autem eveniet!</li>
+                  </ul>
+                </div>
+                <div>
+                  <p>Website Redesign</p>
+                  <ul>
+                    <li><strong>Why:</strong> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam consequuntur inventore maxime ducimus molestias itaque ab soluta quam unde, quo in minus, veritatis fugit nemo sint id excepturi quia aliquid!</li>
+                    <li><strong>What:</strong> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut porro molestias incidunt neque id at, quasi laboriosam! Ipsum est, pariatur assumenda quasi in eligendi quas vero, consequatur quis iste sit!</li>
+                    <li><strong>Details:</strong> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, excepturi ea. Laboriosam accusantium, quisquam accusamus ipsum enim quam impedit, quia in dicta, repellendus explicabo aliquid eos? Voluptatum tenetur autem eveniet!</li>
+                  </ul>
+                </div>
+              </div>
+            <div class="cta">
+              <button class="md-close">Close</button>
+            </div>
+          </div>
+          </div>
+        </div>
+
+        <div class="md-modal md-effect-1" id="modal-project-3">
+          <div class="md-content">
+            <h3>Class</h3>
+            <div class="md-content-inner">
+              <div>
+                <p>Intro</p>
+                <div>
+                  <p>Training Website</p>
+                  <ul>
+                    <li><strong>Why:</strong> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam consequuntur inventore maxime ducimus molestias itaque ab soluta quam unde, quo in minus, veritatis fugit nemo sint id excepturi quia aliquid!</li>
+                    <li><strong>What:</strong> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut porro molestias incidunt neque id at, quasi laboriosam! Ipsum est, pariatur assumenda quasi in eligendi quas vero, consequatur quis iste sit!</li>
+                    <li><strong>Details:</strong> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, excepturi ea. Laboriosam accusantium, quisquam accusamus ipsum enim quam impedit, quia in dicta, repellendus explicabo aliquid eos? Voluptatum tenetur autem eveniet!</li>
+                  </ul>
+                </div>
+                <div>
+                  <p>WordPress Migration</p>
+                  <ul>
+                    <li><strong>Why:</strong> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam consequuntur inventore maxime ducimus molestias itaque ab soluta quam unde, quo in minus, veritatis fugit nemo sint id excepturi quia aliquid!</li>
+                    <li><strong>What:</strong> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut porro molestias incidunt neque id at, quasi laboriosam! Ipsum est, pariatur assumenda quasi in eligendi quas vero, consequatur quis iste sit!</li>
+                    <li><strong>Details:</strong> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, excepturi ea. Laboriosam accusantium, quisquam accusamus ipsum enim quam impedit, quia in dicta, repellendus explicabo aliquid eos? Voluptatum tenetur autem eveniet!</li>
+                  </ul>
+                </div>
+                <div>
+                  <p>Custom Web Application</p>
+                  <ul>
+                    <li><strong>Why:</strong> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam consequuntur inventore maxime ducimus molestias itaque ab soluta quam unde, quo in minus, veritatis fugit nemo sint id excepturi quia aliquid!</li>
+                    <li><strong>What:</strong> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut porro molestias incidunt neque id at, quasi laboriosam! Ipsum est, pariatur assumenda quasi in eligendi quas vero, consequatur quis iste sit!</li>
+                    <li><strong>Details:</strong> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, excepturi ea. Laboriosam accusantium, quisquam accusamus ipsum enim quam impedit, quia in dicta, repellendus explicabo aliquid eos? Voluptatum tenetur autem eveniet!</li>
+                  </ul>
+                </div>
+              </div>
+            <div class="cta">
+              <button class="md-close">Close</button>
+            </div>
+          </div>
+          </div>
+        </div>
+
+        <p></p>
+        <p></p>
+        <div id="self"  class="section">
+          <span class="section-header">Personal Projects</span>
+          <div class="grid-container">
+            <button class="md-trigger" data-modal="modal-self-1">
+              <div class="grid-item">
+                <img src="img/logos/myeps.png"/>
+                myEPS
+              </div>
+            </button>
+            <button class="md-trigger" data-modal="modal-self-2">
+              <div class="grid-item">
+                <img src="img/logos/appicon2.jpg"/>
+                Leak
+              </div>
+            </button>
+            <button class="md-trigger" data-modal="modal-self-3">
+              <div class="grid-item">
+                <img src=""/>
+                Something else
+              </div>
+            </button>
+            <div class="grid-item"></div>
+            <div class="grid-item"></div>
+          </div>
+        </div> 
+
+        <div class="md-overlay"></div>
+        
+        <script src="js/classie.js"></script>
+        <script src="js/modalEffects.js"></script>
+        <script>
+          var polyfilter_scriptpath = '/js/';
+        </script>
+        <script src="js/cssParser.js"></script>
+        <script src="js/css-filters-polyfill.js"></script>
+        
+    </body>
 </html>
