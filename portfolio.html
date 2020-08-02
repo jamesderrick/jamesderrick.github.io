@@ -6,6 +6,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/portfolio.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css">
         <meta name="author" content="James Derrick" />
         <link rel="shortcut icon" href="favicon.ico"> 
     </head>
@@ -127,7 +128,7 @@
         <p></p>
         <p></p>
         <div id="projects"  class="section">
-          <span class="section-header">Work Experience</span>
+          <span class="section-header">Work Related Projects</span>
           <div class="grid-container">
             <button class="md-trigger" data-modal="modal-project-1">
               <div class="grid-item">
@@ -162,13 +163,21 @@
             <h3>Employsure</h3>
             <div class="md-content-inner">
               <div>
-                <p>Intro</p>
+                <p>Employsure run both corporate and marketing websites across the WordPress platform hosted in the cloud</p>
                 <div>
-                  <p>Wordpress Migration</p>
+                  <p>WordPress Migration</p>
                   <ul>
-                    <li><strong>Why:</strong> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam consequuntur inventore maxime ducimus molestias itaque ab soluta quam unde, quo in minus, veritatis fugit nemo sint id excepturi quia aliquid!</li>
-                    <li><strong>What:</strong> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut porro molestias incidunt neque id at, quasi laboriosam! Ipsum est, pariatur assumenda quasi in eligendi quas vero, consequatur quis iste sit!</li>
-                    <li><strong>Details:</strong> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, excepturi ea. Laboriosam accusantium, quisquam accusamus ipsum enim quam impedit, quia in dicta, repellendus explicabo aliquid eos? Voluptatum tenetur autem eveniet!</li>
+                    <li><strong>Why:</strong> This client ran multiple WordPress sites within Rack Space at what was considered an unncessarily high price. They wanted to move to Google Cloud, with a resillient and cost effective solution.</li>
+                    <li><strong>What:</strong> This project involved the design and creation of a Kubernetes based architecture that would allow all sites to run efficiently across minimal resources with the ability to easily spin up more resources when under heavy load as well as being resillient, and automatically backed up every day allowing auditing and data security. Once the infrastructure was created the project also entailed moving all pre-exising sites across to the new architecture.</li>
+                    <li><strong>Extra Details:</strong> Multiple years were spent supporting this environment. Keeping the environment up and running and making improvements or updates whenever necessary or cost effective to do so. I was also responsible for monthly review meetings and documentation where issues could be discussed and future plans set.</li>
+                  </ul>
+                </div>
+                <div>
+                  <p>WordPress Deployment Governance</p>
+                  <ul>
+                    <li><strong>Why:</strong> A level of development control was required for this client. Dependant on third party developers it was hard to manage multiple updates while making certain the sites would experience minimal downtime.</li>
+                    <li><strong>What:</strong> With a combination of tried and tested plugins allowing the sites to adopt a 3 phase process, and a semi-automated deployment process at minimal extra cost to the client being built within the previously designed architecture, this allowed all developers to work in an environment that would not effect production before pushing changes to a staging environment for review before the client could then deploy changes to production when satisfied.</li>
+                    <li><strong>Extra Details:</strong> This project involved a lot of face to face discussions with the client to bottom out a solution that would meet their needs perfectly. I personally worked on plenty of documentation to allow for a smooth transition so both technically minded and those less so understood how to perform what they were required to do. </li>
                   </ul>
                 </div>
               </div>
@@ -184,22 +193,23 @@
             <h3>Greater Sydney Commission</h3>
             <div class="md-content-inner">
               <div>
-                <p>Intro</p>
+                <p>A government website in Sydney, Australia. GSC provide information to the public while working towards the expansion and improvement of the city and it's surrounding areas.</p>
                 <div>
                   <p>Custom Drupal Module</p>
                   <ul>
-                    <li><strong>Why:</strong> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam consequuntur inventore maxime ducimus molestias itaque ab soluta quam unde, quo in minus, veritatis fugit nemo sint id excepturi quia aliquid!</li>
-                    <li><strong>What:</strong> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut porro molestias incidunt neque id at, quasi laboriosam! Ipsum est, pariatur assumenda quasi in eligendi quas vero, consequatur quis iste sit!</li>
-                    <li><strong>Details:</strong> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, excepturi ea. Laboriosam accusantium, quisquam accusamus ipsum enim quam impedit, quia in dicta, repellendus explicabo aliquid eos? Voluptatum tenetur autem eveniet!</li>
+                    <li><strong>Why:</strong> The client periodically releases publications detailing how the city plans to change over the coming years. As part of this plan the organisation like to get feedback from those affected to get an idea of how favourable the plans are.</li>
+                    <li><strong>What:</strong> The project involved creating a custom drupal module, all written in PHP, providing a front end feedback form for the public allowing submissions, and then a collection of admin screens for the client to be able to review submissions, redact necessary information and push the submissions through the stages of their bespoke lifecycle. Finally publishing the feedback on the site in another custom front end screen for the rest of the public to view. </li>
+                    <li><strong>Extra Details:</strong> Challenges included managing uploaded documents between public and private AWS buckets so that files were never accessible until the client approved them. Automatically redacting certain personal information and converting the data entered into well layed out and easily readable PDF documents</li>
                   </ul>
                 </div>
                 <div>
                   <p>Website Redesign</p>
                   <ul>
-                    <li><strong>Why:</strong> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam consequuntur inventore maxime ducimus molestias itaque ab soluta quam unde, quo in minus, veritatis fugit nemo sint id excepturi quia aliquid!</li>
-                    <li><strong>What:</strong> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut porro molestias incidunt neque id at, quasi laboriosam! Ipsum est, pariatur assumenda quasi in eligendi quas vero, consequatur quis iste sit!</li>
-                    <li><strong>Details:</strong> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, excepturi ea. Laboriosam accusantium, quisquam accusamus ipsum enim quam impedit, quia in dicta, repellendus explicabo aliquid eos? Voluptatum tenetur autem eveniet!</li>
+                    <li><strong>Why:</strong> GSC decided it was time to modernise the look of their drupal 7 powered website</li>
+                    <li><strong>What:</strong> Designed by a third party it was my job to turn that design into reality. Making large changes to the drupal theme files and incorporating new modules when required I was able to realise that design, which they are still using today.</li>
+                    <li><strong>Extra Details:</strong> Multiple years at Servian were spent supporting this site, helping the client with new page templates, finding solutions to their design requirements whenever needed and supporting the underlying cloud infrasture, keeping it up to date and secure.</li>
                   </ul>
+                  <a href="https://greater.sydney" target="_blank">greater.sydney</a>
                 </div>
               </div>
             <div class="cta">
@@ -220,7 +230,7 @@
                   <ul>
                     <li><strong>Why:</strong> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam consequuntur inventore maxime ducimus molestias itaque ab soluta quam unde, quo in minus, veritatis fugit nemo sint id excepturi quia aliquid!</li>
                     <li><strong>What:</strong> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut porro molestias incidunt neque id at, quasi laboriosam! Ipsum est, pariatur assumenda quasi in eligendi quas vero, consequatur quis iste sit!</li>
-                    <li><strong>Details:</strong> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, excepturi ea. Laboriosam accusantium, quisquam accusamus ipsum enim quam impedit, quia in dicta, repellendus explicabo aliquid eos? Voluptatum tenetur autem eveniet!</li>
+                    <li><strong>Extra Details:</strong> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, excepturi ea. Laboriosam accusantium, quisquam accusamus ipsum enim quam impedit, quia in dicta, repellendus explicabo aliquid eos? Voluptatum tenetur autem eveniet!</li>
                   </ul>
                 </div>
                 <div>
@@ -228,7 +238,7 @@
                   <ul>
                     <li><strong>Why:</strong> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam consequuntur inventore maxime ducimus molestias itaque ab soluta quam unde, quo in minus, veritatis fugit nemo sint id excepturi quia aliquid!</li>
                     <li><strong>What:</strong> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut porro molestias incidunt neque id at, quasi laboriosam! Ipsum est, pariatur assumenda quasi in eligendi quas vero, consequatur quis iste sit!</li>
-                    <li><strong>Details:</strong> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, excepturi ea. Laboriosam accusantium, quisquam accusamus ipsum enim quam impedit, quia in dicta, repellendus explicabo aliquid eos? Voluptatum tenetur autem eveniet!</li>
+                    <li><strong>Extra Details:</strong> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, excepturi ea. Laboriosam accusantium, quisquam accusamus ipsum enim quam impedit, quia in dicta, repellendus explicabo aliquid eos? Voluptatum tenetur autem eveniet!</li>
                   </ul>
                 </div>
                 <div>
@@ -236,7 +246,29 @@
                   <ul>
                     <li><strong>Why:</strong> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam consequuntur inventore maxime ducimus molestias itaque ab soluta quam unde, quo in minus, veritatis fugit nemo sint id excepturi quia aliquid!</li>
                     <li><strong>What:</strong> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut porro molestias incidunt neque id at, quasi laboriosam! Ipsum est, pariatur assumenda quasi in eligendi quas vero, consequatur quis iste sit!</li>
-                    <li><strong>Details:</strong> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, excepturi ea. Laboriosam accusantium, quisquam accusamus ipsum enim quam impedit, quia in dicta, repellendus explicabo aliquid eos? Voluptatum tenetur autem eveniet!</li>
+                    <li><strong>Extra Details:</strong> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, excepturi ea. Laboriosam accusantium, quisquam accusamus ipsum enim quam impedit, quia in dicta, repellendus explicabo aliquid eos? Voluptatum tenetur autem eveniet!</li>
+                  </ul>
+                </div>
+              </div>
+            <div class="cta">
+              <button class="md-close">Close</button>
+            </div>
+          </div>
+          </div>
+        </div>
+
+        <div class="md-modal md-effect-1" id="modal-project-4">
+          <div class="md-content">
+            <h3>Service Now</h3>
+            <div class="md-content-inner">
+              <div>
+                <p>Service Now was chosen as the new helpdesk providor by Servian.</p>
+                <div>
+                  <p>Custom Drupal Module</p>
+                  <ul>
+                    <li><strong>Why:</strong> Servian Managed Services decided to move from their old helpdesk provider Manage Engine to a new one using the Service Now platform. This would allow for easier development, better integration and simpler tools for both agents and clients to use.</li>
+                    <li><strong>What:</strong> I was one of the leads on developing the new platform, initially starting with asset management and then creating new front end screens for clients to submit various requests. I also began work on integrations allowing the helpdesk system to automatically and directly update the company's Active Directory system, automating the previous approval process and cutting down on time wasted by service agents and consultants alike.</li>
+                    <li><strong>Extra Details:</strong> </li>
                   </ul>
                 </div>
               </div>
@@ -282,8 +314,22 @@
         <script>
           var polyfilter_scriptpath = '/js/';
         </script>
-        <script src="js/cssParser.js"></script>
-        <script src="js/css-filters-polyfill.js"></script>
+        <!-- <script src="js/cssParser.js"></script>
+        <script src="js/css-filters-polyfill.js"></script> -->
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js"></script>
         
     </body>
 </html>
+
+<!-- <div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true }'>
+  <div class="gallery-cell">
+    <img src="img/logos/servicenow.jpg"/>
+  </div>
+  <div class="gallery-cell">
+    <img src=""/>
+  </div>
+  <div class="gallery-cell"></div>
+  <div class="gallery-cell"></div>
+  <div class="gallery-cell"></div>
+</div> -->
