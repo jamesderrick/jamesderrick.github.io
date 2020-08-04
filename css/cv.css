@@ -246,3 +246,12 @@ footer {
 #project a {
     width: 100%;
 }
+
+@media(max-width:568px) {
+	.showcase-btn {
+		font-size: 95%;
+	}
+	#info1 .info-left img{
+		width: 90%;
+	}
+}
