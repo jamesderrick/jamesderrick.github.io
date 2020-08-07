@@ -26,12 +26,12 @@ body, html {
 }
 
 .pimg1 {
-    background-image: url('../img/image4.jpg');
+    background-image: url('../img/image1.jpg');
     min-height: 100%;
 }
 
 .pimg2 {
-    background-image: url('../img/image2.jpg');
+    background-image: url('../img/image4.jpg');
     min-height: 400px;
 }
 
@@ -226,5 +226,16 @@ body, html {
     .ptext p {
         font-size: 16px;
     }
+}
+
+button {
+    background-color: rgba(13, 110, 139, 0.75);
+    border: none;
+    padding: 10px;
+}
+button a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
 }
 

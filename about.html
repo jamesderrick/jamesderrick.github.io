@@ -1,35 +1,145 @@
 <!DOCTYPE html>
+<html class="no-js">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Tiny Jim</title>
-        <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700%7CRobot%7CJosefin+Sans:100,200,300,400,500" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/about.css">
-        <link rel="icon" type="image/ico" href="favicon.ico"/>
     </head>
     <body>
-        <header>
-            <img class="logo" src="" alt="logo">
-            <nav>
-                <ul class="nav__links">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
+
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+            <a class="navbar-brand" href="index.html">James Derrick</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#introduction">About Me <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#myInterests">Interests</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#more">More Details</a>
+                </li>
+              </ul>
+            </div>
+        </nav>
+
+        <section id="introduction">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="intro-left">
+                            <img src="img/me2.jpeg"/>
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-sm-6">
+                        <div class="intro-right">
+                            <h1>About Me</h1>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab iste laboriosam quidem, eligendi id explicabo adipisci assumenda dolorum necessitatibus inventore delectus molestias totam cumque recusandae dolores earum? Ex, similique reprehenderit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure labore nostrum alias laboriosam repellat reprehenderit blanditiis dolor saepe aliquam? Ipsam molestias quisquam perspiciatis voluptatum natus voluptas modi quia itaque nemo.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="myInterests">
+            <div id="interests" class="carousel slide" data-ride="carousel">
+
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                  <li data-target="#interests" data-slide-to="0" class="active"></li>
+                  <li data-target="#interests" data-slide-to="1"></li>
+                  <li data-target="#interests" data-slide-to="2"></li>
                 </ul>
-            </nav>
-            <a class="cta" href="#"><button>Contact</button></a>
+                
+                <!-- The slideshow -->
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/image1.jpg">
+                    <div class="carousel-caption">
+                        <h3>Los Angeles</h3>
+                        <p>We had such a great time in LA!</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/image2.jpg">
+                    <div class="carousel-caption">
+                        <h3>Los Angeles</h3>
+                        <p>We had such a great time in LA!</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/image3.jpg">
+                    <div class="carousel-caption">
+                        <h3>Los Angeles</h3>
+                        <p>We had such a great time in LA!</p>
+                    </div>
+                  </div>
+                </div>
+                
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#interests" data-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#interests" data-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                </a>
+              </div>
+        </section>
 
-        </header>
+        <section id="more">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="intro-left">
+                            <img src="img/me3.jpeg"/>
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-sm-6">
+                        <div class="intro-right">
+                            <h1>More Details</h1>
+                            So that's the fun stuff out the way. If you want to learn more about my working life and careers to date then click the button below to view my previous work experience.
+                            <br>
+                            <br>
+                            <a class="btn btn-primary btn-lg" href="cv.html">Work Experience</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-        <h1>About</h1>
-        <div class="container">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores unde vero laborum, rem consequatur nesciunt doloremque officiis omnis? Nemo tempora placeat at quas, iste reiciendis maxime sint soluta consequatur obcaecati! Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, libero enim, iste, aliquam dolorem illum facere autem excepturi sapiente consequatur animi tenetur corporis accusantium qui fuga dolorum earum voluptatibus commodi?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi veniam quod fugit placeat ullam vero excepturi. Eius harum totam officiis, nihil iste iure. Ut itaque architecto repellat qui? Quam, tempore.</p>
-        </div>
-        <div class="container">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores unde vero laborum, rem consequatur nesciunt doloremque officiis omnis? Nemo tempora placeat at quas, iste reiciendis maxime sint soluta consequatur obcaecati! Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam aliquam nisi rem dolores et praesentium iure quaerat odit expedita tempore quam voluptatibus esse eligendi qui quis, aperiam tempora explicabo magni?</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores unde vero laborum, rem consequatur nesciunt doloremque officiis omnis? Nemo tempora placeat at quas, iste reiciendis maxime sint soluta consequatur obcaecati! Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus exercitationem, deserunt, sit eius iure neque iusto dolorum, similique et voluptatibus pariatur id est nesciunt labore sed nobis dicta maxime voluptate?</p>
-        </div>
-        
+        <footer>
+            <p class="text-center">James Derrick Copyright &copy; 2020</p>
+        </footer>
+
+        <script   src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+        <script>
+        $(function() {
+            $('a[href*="#"]:not([href="#"]):not([href="#interests"])').click(function() {
+            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname ==  this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                $('html, body').animate({
+                    scrollTop: target.offset().top - 60
+                }, 1000);
+                return false;
+                }
+            }
+            });
+        });
+        </script>
+
     </body>
 </html>
